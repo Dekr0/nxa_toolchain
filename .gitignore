@@ -1,0 +1,6 @@
+**/.venv
+**/.zig-cache
+**/ref.py
+**/requirements.txt
+**/zig_compiler
+**/zig-out
