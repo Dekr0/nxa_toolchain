@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "args": [],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "internalConsoleOptions": "neverOpen",
+            "name": "Launch",
+            "program": "zig-out/bin/test_core",
+            "request": "launch",
+            "type": "lldb",
+            "env": {
+                "DATA": "/mnt/d/Program Files/Steam/steamapps/common/Helldivers 2/data"
+            }
+        }
+    ]
+}
