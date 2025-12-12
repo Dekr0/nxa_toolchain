@@ -1,0 +1,17 @@
+.{
+    .name = .nxa_parser,
+    .version = "0.0.1",
+    .dependencies = .{
+        .lz4 = .{
+            .url = "git+https://github.com/allyourcodebase/lz4.git?ref=1.10.0-6#41f52ab227caf9d48cf88c89a4d2946caa12b102",
+            .hash = "lz4-1.10.0-6-ewyzw-4NAAAWDpY4xpiqr4LQhZQAC0x_rGnW2iPh6jk2",
+        },
+        .flags = .{
+            .url = "git+https://github.com/joegm/flags#2d62be30ff33661a2a3c6743ac922a78302d78a0",
+            .hash = "flags-0.10.0-a_9h3pxvAAA6wPndlO7ktfrpZUmhQu1y8aDm0lTi5ATR",
+        },
+    },
+    .minimum_zig_version = "0.16.0-dev.1484+d0ba6642b",
+    .paths = .{""},
+    .fingerprint = 0x307366d35da96359,
+}
